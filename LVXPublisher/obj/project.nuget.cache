@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "UPsnQal15RM2OJq/xUqUCoVMlzrWyyqwck/BR8WNvFrdtOdMWhxHCnQ3/IwGzR05v4pl5wzYw762ApH4v2F8jQ==",
+  "dgSpecHash": "fwX7xtqw7Y5tmbHPNLmjDunoa7bmyDoluXjyQ3OQNGgI8uONaqj9IisL0ewe3CGoKZsnWDfkin+5DVdvNmTyhQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\yrz\\Desktop\\lxv_mqtt\\lvx_MQTT\\lvx_MQTT\\LVXSubscriber.csproj",
+  "projectFilePath": "C:\\Users\\yrz\\Desktop\\lxv_mqtt\\lvx_MQTT\\LVXPublisher\\LVXPublisher.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\yrz\\.nuget\\packages\\mqttnet\\3.1.1\\mqttnet.3.1.1.nupkg.sha512",
     "C:\\Users\\yrz\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.21\\microsoft.netcore.app.host.win-x64.3.1.21.nupkg.sha512"
