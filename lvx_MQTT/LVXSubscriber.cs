@@ -17,12 +17,12 @@ namespace lvx_MQTT
             var option = new MqttClientOptionsBuilder()
                 .WithClientId(Guid.NewGuid().ToString())
                 //.WithClientId("test123")
-<<<<<<< HEAD
+
                 //.WithTcpServer(host,1883)
-=======
-                .WithTcpServer(host,1883)
+
+                //.WithTcpServer(host,1883)
                 //.WithTcpServer("192.168.178.5",1883)
->>>>>>> bfe230c9a31d06d5d3043abda2e5fc761aecc948
+
                 //.WithTcpServer("192.168.178.5",1883)
                 .WithTcpServer("192.168.178.5", 1883)
                 //.WithWebSocketServer("mqtt://192.168.178.5:1883")
