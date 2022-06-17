@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "LVXSubscriber": {
+      "commandName": "Project",
+      "remoteDebugEnabled": false
+    }
+  }
+}
