@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "LVXPublisher": {
+      "commandName": "Project",
+      "remoteDebugEnabled": false
+    }
+  }
+}

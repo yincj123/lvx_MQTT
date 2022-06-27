@@ -37,7 +37,7 @@ namespace lvx_MQTT
                 Console.WriteLine("connected");
             });
 
-            /*
+            
             client.UseConnectedHandler(async e =>
             {
                 Console.WriteLine("connected");
@@ -54,7 +54,7 @@ namespace lvx_MQTT
                 Console.WriteLine($"Received Message - {Encoding.UTF8.GetString(e.ApplicationMessage.Payload)}");
 
             });
-            */
+            
 
             client.UseDisconnectedHandler(e =>
             {
