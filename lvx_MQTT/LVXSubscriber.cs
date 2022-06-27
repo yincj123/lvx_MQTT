@@ -16,18 +16,8 @@ namespace lvx_MQTT
             IMqttClient client = mqttFactory.CreateMqttClient();
             var option = new MqttClientOptionsBuilder()
                 .WithClientId(Guid.NewGuid().ToString())
-                //.WithClientId("test123")
-
-                //.WithTcpServer(host,1883)
-
-                //.WithTcpServer(host,1883)
-                //.WithTcpServer("192.168.178.5",1883)
-
-                //.WithTcpServer("192.168.178.5",1883)
-                .WithTcpServer("192.168.178.5", 1883)
-                //.WithWebSocketServer("mqtt://192.168.178.5:1883")
-                //.WithTls(192.168.178.5);
                 
+                .WithTcpServer("192.168.178.5", 1883)               
                 .WithCredentials("apollo","PJn3-mktq")
                 .WithCleanSession()
                 .Build();
