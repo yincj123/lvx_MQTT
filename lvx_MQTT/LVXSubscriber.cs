@@ -16,8 +16,14 @@ namespace lvx_MQTT
             string host = "mqtt://192.168.178.5";
             IMqttClient client = mqttFactory.CreateMqttClient();
             var option = new MqttClientOptionsBuilder()
+<<<<<<< HEAD
                 .WithClientId(Guid.NewGuid().ToString())       
                 .WithTcpServer("192.168.178.5", 1883)
+=======
+                .WithClientId(Guid.NewGuid().ToString())
+                
+                .WithTcpServer("192.168.178.5", 1883)               
+>>>>>>> dddef4a5edc588266354196d09cdb399034e431e
                 .WithCredentials("apollo","PJn3-mktq")
                 .WithCleanSession()
                 .Build();
@@ -28,6 +34,19 @@ namespace lvx_MQTT
             });
             await client.ConnectAsync(option);
 
+<<<<<<< HEAD
+=======
+            
+            client.UseConnectedHandler(async e =>
+            {
+                Console.WriteLine("connected");
+                var topicFilter = new TopicFilterBuilder()
+                                      .WithTopic("")
+                                      .Build();
+                await client.SubscribeAsync(topicFilter);
+            }
+               );
+>>>>>>> dddef4a5edc588266354196d09cdb399034e431e
             
                 
             await client.SubscribeAsync(new MqttTopicFilterBuilder().WithTopic("").Build());
@@ -47,7 +66,11 @@ namespace lvx_MQTT
 
 
             });
+<<<<<<< HEAD
 
+=======
+            
+>>>>>>> dddef4a5edc588266354196d09cdb399034e431e
 
             client.UseDisconnectedHandler(e =>
             {
