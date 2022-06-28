@@ -9,21 +9,15 @@ namespace lvx_MQTT
 {
     class LVXSubscriber
     {
-        [Obsolete]
+       
         static async Task Main(string[] args)
         {
             var mqttFactory = new MqttFactory();
             string host = "mqtt://192.168.178.5";
             IMqttClient client = mqttFactory.CreateMqttClient();
             var option = new MqttClientOptionsBuilder()
-<<<<<<< HEAD
-                .WithClientId(Guid.NewGuid().ToString())       
-                .WithTcpServer("192.168.178.5", 1883)
-=======
-                .WithClientId(Guid.NewGuid().ToString())
-                
+                .WithClientId(Guid.NewGuid().ToString()) 
                 .WithTcpServer("192.168.178.5", 1883)               
->>>>>>> dddef4a5edc588266354196d09cdb399034e431e
                 .WithCredentials("apollo","PJn3-mktq")
                 .WithCleanSession()
                 .Build();
@@ -32,11 +26,8 @@ namespace lvx_MQTT
             {
                 Console.WriteLine("connected");
             });
-            await client.ConnectAsync(option);
-
-<<<<<<< HEAD
-=======
-            
+            client.ConnectAsync(option).GetAwaiter().GetResult();
+            /*
             client.UseConnectedHandler(async e =>
             {
                 Console.WriteLine("connected");
@@ -46,37 +37,37 @@ namespace lvx_MQTT
                 await client.SubscribeAsync(topicFilter);
             }
                );
->>>>>>> dddef4a5edc588266354196d09cdb399034e431e
-            
-                
-            await client.SubscribeAsync(new MqttTopicFilterBuilder().WithTopic("").Build());
+               */
 
-            Console.WriteLine("subscribe successfully");
-
+            // Subscribe
             client.UseApplicationMessageReceivedHandler(e =>
             {
-
+                
+                Console.WriteLine();
+                Console.WriteLine();
+                Console.WriteLine("subscribe successfully");
                 // Console.WriteLine($"Received Message - {Encoding.UTF8.GetString(e.ApplicationMessage.Payload)}");
                 Console.WriteLine("### RECEIVED APPLICATION MESSAGE ###");
                 Console.WriteLine($"+ Topic = {e.ApplicationMessage.Topic}");
                 Console.WriteLine($"+ Payload = {Encoding.UTF8.GetString(e.ApplicationMessage.Payload)}");
                 Console.WriteLine($"+ QoS = {e.ApplicationMessage.QualityOfServiceLevel}");
-                Console.WriteLine($"+ Retain = {e.ApplicationMessage.Retain}");
                 Console.WriteLine();
 
 
             });
-<<<<<<< HEAD
+            //var topic = new MqttTopicFilterBuilder().WithTopic("glp/0/./=system/alarm/copyright").Build();
+            //client.SubscribeAsync(topic).GetAwaiter().GetResult();
 
-=======
-            
->>>>>>> dddef4a5edc588266354196d09cdb399034e431e
+            await client.SubscribeAsync(new MqttTopicFilterBuilder().WithTopic("glp/0/./=system/connection/name").Build());
+            await client.SubscribeAsync(new MqttTopicFilterBuilder().WithTopic("Test").Build());
+
+            //Console.WriteLine("subscribe successfully");
 
             client.UseDisconnectedHandler(e =>
             {
                 Console.WriteLine("disconnected");
             });
-
+            Console.ReadLine();
             
             await client.DisconnectAsync();
         }
