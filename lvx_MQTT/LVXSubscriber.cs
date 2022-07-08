@@ -59,10 +59,16 @@ namespace lvx_MQTT
             //client.SubscribeAsync(topic).GetAwaiter().GetResult();
 
             await client.SubscribeAsync(new MqttTopicFilterBuilder().WithTopic("glp/0/./=system/connection/name").Build());
+<<<<<<< HEAD
             await client.SubscribeAsync(new MqttTopicFilterBuilder().WithTopic("Test").Build());
 
             //Console.WriteLine("subscribe successfully");
 
+=======
+
+            //Console.WriteLine("subscribe successfully");
+            
+>>>>>>> f060eb5fb43b9eb1f81471f5bb593e61af6bed84
             client.UseDisconnectedHandler(e =>
             {
                 Console.WriteLine("disconnected");
