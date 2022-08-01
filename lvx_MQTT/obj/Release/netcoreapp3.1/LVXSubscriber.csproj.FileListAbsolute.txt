@@ -1,0 +1,16 @@
+C:\Users\student\Desktop\lvx_MQTT\lvx_MQTT\bin\Release\netcoreapp3.1\LVXSubscriber.exe
+C:\Users\student\Desktop\lvx_MQTT\lvx_MQTT\bin\Release\netcoreapp3.1\LVXSubscriber.deps.json
+C:\Users\student\Desktop\lvx_MQTT\lvx_MQTT\bin\Release\netcoreapp3.1\LVXSubscriber.runtimeconfig.json
+C:\Users\student\Desktop\lvx_MQTT\lvx_MQTT\bin\Release\netcoreapp3.1\LVXSubscriber.runtimeconfig.dev.json
+C:\Users\student\Desktop\lvx_MQTT\lvx_MQTT\bin\Release\netcoreapp3.1\LVXSubscriber.dll
+C:\Users\student\Desktop\lvx_MQTT\lvx_MQTT\bin\Release\netcoreapp3.1\LVXSubscriber.pdb
+C:\Users\student\Desktop\lvx_MQTT\lvx_MQTT\bin\Release\netcoreapp3.1\MQTTnet.dll
+C:\Users\student\Desktop\lvx_MQTT\lvx_MQTT\obj\Release\netcoreapp3.1\LVXSubscriber.csproj.AssemblyReference.cache
+C:\Users\student\Desktop\lvx_MQTT\lvx_MQTT\obj\Release\netcoreapp3.1\LVXSubscriber.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\student\Desktop\lvx_MQTT\lvx_MQTT\obj\Release\netcoreapp3.1\LVXSubscriber.AssemblyInfoInputs.cache
+C:\Users\student\Desktop\lvx_MQTT\lvx_MQTT\obj\Release\netcoreapp3.1\LVXSubscriber.AssemblyInfo.cs
+C:\Users\student\Desktop\lvx_MQTT\lvx_MQTT\obj\Release\netcoreapp3.1\LVXSubscriber.csproj.CoreCompileInputs.cache
+C:\Users\student\Desktop\lvx_MQTT\lvx_MQTT\obj\Release\netcoreapp3.1\LVXSubscriber.csproj.CopyComplete
+C:\Users\student\Desktop\lvx_MQTT\lvx_MQTT\obj\Release\netcoreapp3.1\LVXSubscriber.dll
+C:\Users\student\Desktop\lvx_MQTT\lvx_MQTT\obj\Release\netcoreapp3.1\LVXSubscriber.pdb
+C:\Users\student\Desktop\lvx_MQTT\lvx_MQTT\obj\Release\netcoreapp3.1\LVXSubscriber.genruntimeconfig.cache

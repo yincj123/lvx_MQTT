@@ -1,0 +1,16 @@
+C:\Users\student\Desktop\lvx_MQTT\LVXPublisher\bin\Debug\netcoreapp3.1\LVXPublisher.exe
+C:\Users\student\Desktop\lvx_MQTT\LVXPublisher\bin\Debug\netcoreapp3.1\LVXPublisher.deps.json
+C:\Users\student\Desktop\lvx_MQTT\LVXPublisher\bin\Debug\netcoreapp3.1\LVXPublisher.runtimeconfig.json
+C:\Users\student\Desktop\lvx_MQTT\LVXPublisher\bin\Debug\netcoreapp3.1\LVXPublisher.runtimeconfig.dev.json
+C:\Users\student\Desktop\lvx_MQTT\LVXPublisher\bin\Debug\netcoreapp3.1\LVXPublisher.dll
+C:\Users\student\Desktop\lvx_MQTT\LVXPublisher\bin\Debug\netcoreapp3.1\LVXPublisher.pdb
+C:\Users\student\Desktop\lvx_MQTT\LVXPublisher\bin\Debug\netcoreapp3.1\MQTTnet.dll
+C:\Users\student\Desktop\lvx_MQTT\LVXPublisher\obj\Debug\netcoreapp3.1\LVXPublisher.csproj.AssemblyReference.cache
+C:\Users\student\Desktop\lvx_MQTT\LVXPublisher\obj\Debug\netcoreapp3.1\LVXPublisher.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\student\Desktop\lvx_MQTT\LVXPublisher\obj\Debug\netcoreapp3.1\LVXPublisher.AssemblyInfoInputs.cache
+C:\Users\student\Desktop\lvx_MQTT\LVXPublisher\obj\Debug\netcoreapp3.1\LVXPublisher.AssemblyInfo.cs
+C:\Users\student\Desktop\lvx_MQTT\LVXPublisher\obj\Debug\netcoreapp3.1\LVXPublisher.csproj.CoreCompileInputs.cache
+C:\Users\student\Desktop\lvx_MQTT\LVXPublisher\obj\Debug\netcoreapp3.1\LVXPublisher.csproj.CopyComplete
+C:\Users\student\Desktop\lvx_MQTT\LVXPublisher\obj\Debug\netcoreapp3.1\LVXPublisher.dll
+C:\Users\student\Desktop\lvx_MQTT\LVXPublisher\obj\Debug\netcoreapp3.1\LVXPublisher.pdb
+C:\Users\student\Desktop\lvx_MQTT\LVXPublisher\obj\Debug\netcoreapp3.1\LVXPublisher.genruntimeconfig.cache
