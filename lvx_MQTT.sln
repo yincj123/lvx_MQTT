@@ -5,7 +5,9 @@ VisualStudioVersion = 16.0.32228.343
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LVXSubscriber", "lvx_MQTT\LVXSubscriber.csproj", "{BDD251AF-A755-4CAD-83A7-D10AD13563F0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LVXPublisher", "LVXPublisher\LVXPublisher.csproj", "{1A4B4661-28B4-45BA-AE40-B3C74A7A5AB7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LVXPublisher", "LVXPublisher\LVXPublisher.csproj", "{1A4B4661-28B4-45BA-AE40-B3C74A7A5AB7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Apicall", "Apicall\Apicall.csproj", "{F29173DB-EA76-4727-AFED-697586E8263E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{1A4B4661-28B4-45BA-AE40-B3C74A7A5AB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1A4B4661-28B4-45BA-AE40-B3C74A7A5AB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1A4B4661-28B4-45BA-AE40-B3C74A7A5AB7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F29173DB-EA76-4727-AFED-697586E8263E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F29173DB-EA76-4727-AFED-697586E8263E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F29173DB-EA76-4727-AFED-697586E8263E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F29173DB-EA76-4727-AFED-697586E8263E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

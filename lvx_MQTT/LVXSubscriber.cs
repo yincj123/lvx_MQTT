@@ -27,17 +27,7 @@ namespace lvx_MQTT
                 Console.WriteLine("connected");
             });
             client.ConnectAsync(option).GetAwaiter().GetResult();
-            /*
-            client.UseConnectedHandler(async e =>
-            {
-                Console.WriteLine("connected");
-                var topicFilter = new TopicFilterBuilder()
-                                      .WithTopic("")
-                                      .Build();
-                await client.SubscribeAsync(topicFilter);
-            }
-               );
-               */
+           
 
             // Subscribe
             client.UseApplicationMessageReceivedHandler(e =>
@@ -57,18 +47,20 @@ namespace lvx_MQTT
             });
             //var topic = new MqttTopicFilterBuilder().WithTopic("glp/0/./=system/alarm/copyright").Build();
             //client.SubscribeAsync(topic).GetAwaiter().GetResult();
-
-            await client.SubscribeAsync(new MqttTopicFilterBuilder().WithTopic("glp/0/./=system/connection/name").Build());
-<<<<<<< HEAD
-            await client.SubscribeAsync(new MqttTopicFilterBuilder().WithTopic("Test").Build());
-
-            //Console.WriteLine("subscribe successfully");
-
-=======
-
-            //Console.WriteLine("subscribe successfully");
             
->>>>>>> f060eb5fb43b9eb1f81471f5bb593e61af6bed84
+                  /*      await client.SubscribeAsync(new MqttTopicFilterBuilder().WithTopic("glp/0/17qfq2z/fb/alarm/cpu_temperature/sts").Build());
+                        await client.SubscribeAsync(new MqttTopicFilterBuilder().WithTopic("glp/0/./=system/connection/name").Build());
+                        await client.SubscribeAsync(new MqttTopicFilterBuilder().WithTopic("glp/0/17qfq2z/fb/dev/lon/0/sts").Build());
+                        await client.SubscribeAsync(new MqttTopicFilterBuilder().WithTopic("glp/0/17qfq2z/fb/lic/sts").Build());
+                        await client.SubscribeAsync(new MqttTopicFilterBuilder().WithTopic("glp/0/17qfq2z/fb/sev/2/sts").Build());
+                        await client.SubscribeAsync(new MqttTopicFilterBuilder().WithTopic("glp/0/17qfq2z/fb/sts").Build());
+                        await client.SubscribeAsync(new MqttTopicFilterBuilder().WithTopic("glp/0/17qfq2z/fb/cfg").Build());
+                  */
+            
+            await client.SubscribeAsync(new MqttTopicFilterBuilder().WithTopic("Test").Build());
+            //Console.WriteLine("subscribe successfully");
+
+
             client.UseDisconnectedHandler(e =>
             {
                 Console.WriteLine("disconnected");
